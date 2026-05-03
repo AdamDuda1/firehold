@@ -1,0 +1,9 @@
+[gd_resource type="TileSet" format=3 uid="uid://dr5ydmm8nqi0s"]
+
+[ext_resource type="Texture2D" uid="uid://b50wc064xikov" path="res://assets/sprites/world/terrain/water_foam.png" id="1_m1al1"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_m1al1"]
+texture = ExtResource("1_m1al1")
+
+[resource]
+sources/1 = SubResource("TileSetAtlasSource_m1al1")

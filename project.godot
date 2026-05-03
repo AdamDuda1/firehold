@@ -11,11 +11,24 @@ config_version=5
 [application]
 
 config/name="firehold"
+run/main_scene="uid://ijcr7tsdcsn3"
 config/features=PackedStringArray("4.6", "GL Compatibility")
+boot_splash/show_image=false
+boot_splash/stretch_mode=0
+boot_splash/image="uid://d0i1ymo7n7fii"
+
+[display]
+
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
 
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
 
 [physics]
 
@@ -24,5 +37,5 @@ enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
 [rendering]
 
 rendering_device/driver.windows="d3d12"
-renderer/rendering_method="gl_compatibility"
-renderer/rendering_method.mobile="gl_compatibility"
+renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true
